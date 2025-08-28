@@ -14,8 +14,8 @@ layout: two-cols
 <style scoped>
 .center-container {
   display: flex;
-  justify-content: top;
-  align-items: left;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
   height: 100%; /* This makes it fill the available slide area */
 }
