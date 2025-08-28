@@ -3,18 +3,31 @@ layout: two-cols
 ---
 
 # Analytics
-
-<div class="iframe-container" style="width: 100%; max-width: 600px; height: 300px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<div class="center-container">
   <iframe 
-    title="foursquarenc_dashboard" 
-    width="100%" 
-    height="100%" 
     src="https://app.powerbi.com/view?r=eyJrIjoiYjE1OTJkMjItZDFkZi00YjhjLTkwN2MtODU1N2ZmNDE5OTEyIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9" 
     frameborder="0" 
-    allowFullScreen="true"
-    style="display: block;">
+    allowfullscreen>
   </iframe>
 </div>
+
+<style scoped>
+.center-container {
+  display: flex;
+  justify-content: top;
+  align-items: left;
+  width: 100%;
+  height: 100%; /* This makes it fill the available slide area */
+}
+
+.center-container iframe {
+  width: 90%; /* Adjust width as needed */
+  height: 80%; /* Adjust height as needed */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
 
 ::right::
 
