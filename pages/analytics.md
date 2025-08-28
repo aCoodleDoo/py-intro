@@ -6,13 +6,36 @@ layout: two-cols
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import Chart from 'chart.js/auto'
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+  Filler
+} from 'chart.js'
 
-const chartRef = ref(null)
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+  Filler
+)
+
+const canvasRef = ref(null)
 
 onMounted(() => {
-  const ctx = chartRef.value.getContext('2d')
-  new Chart(ctx, {
+  if (!canvasRef.value) return
+  
+  const ctx = canvasRef.value.getContext('2d')
+  new ChartJS(ctx, {
     type: 'line',
     data: {
       labels: ['Pre-Implementation', 'Month 1', 'Month 3', 'Month 6', 'Month 9', 'Month 12'],
@@ -84,8 +107,8 @@ onMounted(() => {
 
 ::right::
 
-<div class="chart-container" ref="chartRef">
-  <canvas ref="chartRef"></canvas>
+<div class="chart-container" style="position: relative; height: 400px; width: 100%;">
+  <canvas ref="canvasRef"></canvas>
 </div>
 
 <div class="space-y-6" v-click>
