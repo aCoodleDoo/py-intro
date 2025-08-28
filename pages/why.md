@@ -2,7 +2,7 @@
 transition: slide-left
 ---
 
-# Why Python?
+# Why Service by Design?
 
 - 📝 **popular, easy** to learn programming language.
 - 🛠 suitable for fast **prototyping**
