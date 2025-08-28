@@ -59,6 +59,10 @@ src: ./pages/why.md
 ---
 
 ---
+src: ./pages/philosophy.md
+---
+
+---
 src: ./pages/intro.md
 ---
 
