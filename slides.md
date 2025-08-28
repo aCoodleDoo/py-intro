@@ -63,6 +63,10 @@ src: ./pages/philosophy.md
 ---
 
 ---
+src: ./pages/pillar-one.md
+---
+
+---
 src: ./pages/intro.md
 ---
 

@@ -4,96 +4,9 @@ layout: two-cols
 
 # Analytics
 
-<script setup>
-import { ref, onMounted } from 'vue'
-
-const canvasRef = ref(null)
-
-onMounted(async () => {
-  if (!canvasRef.value) return
-  
-  try {
-    const { Chart } = await import('chart.js/auto')
-    
-    const ctx = canvasRef.value.getContext('2d')
-    new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: ['Pre-Implementation', 'Month 1', 'Month 3', 'Month 6', 'Month 9', 'Month 12'],
-        datasets: [{
-          label: 'Human Effort (%)',
-          data: [100, 85, 65, 45, 30, 20],
-          borderColor: '#ef4444',
-          backgroundColor: 'rgba(239, 68, 68, 0.1)',
-          borderWidth: 3,
-          fill: true,
-          tension: 0.4
-        }, {
-          label: 'Agent Effort (%)',
-          data: [0, 15, 35, 55, 70, 80],
-          borderColor: '#10b981',
-          backgroundColor: 'rgba(16, 185, 129, 0.1)',
-          borderWidth: 3,
-          fill: true,
-          tension: 0.4
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            position: 'top',
-          },
-          title: {
-            display: true,
-            text: 'Automation Implementation Timeline',
-            font: {
-              size: 16,
-              weight: 'bold'
-            }
-          }
-        },
-        scales: {
-          y: {
-            beginAtZero: true,
-            max: 100,
-            ticks: {
-              callback: function(value) {
-                return value + '%'
-              }
-            },
-            title: {
-              display: true,
-              text: 'Effort Distribution'
-            },
-            grid: {
-              color: 'rgba(0, 0, 0, 0.1)'
-            }
-          },
-          x: {
-            title: {
-              display: true,
-              text: 'Implementation Timeline'
-            },
-            grid: {
-              color: 'rgba(0, 0, 0, 0.1)'
-            }
-          }
-        }
-      }
-    })
-  } catch (error) {
-    console.error('Failed to load Chart.js:', error)
-  }
-})
-</script>
+<iframe title="foursquarenc_dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYjE1OTJkMjItZDFkZi00YjhjLTkwN2MtODU1N2ZmNDE5OTEyIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 ::right::
-
-<div class="chart-container" style="position: relative; height: 400px; width: 100%;">
-  <canvas ref="canvasRef"></canvas>
-</div>
 
 <div class="space-y-6" v-click>
 
