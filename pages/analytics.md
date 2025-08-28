@@ -82,16 +82,6 @@ onMounted(() => {
 })
 </script>
 
-::left::
-
-<div class="prose" v-click>
-
-## Analytics
-
-The adoption of automation in business processes has shown a significant shift in effort distribution. Initially, human effort accounts for the entirety of task execution. As automation is progressively implemented, the reliance on human input decreases, while agent (automated system) effort increases proportionally. This transition not only streamlines operations but also allows human resources to focus on more complex, strategic, and creative endeavors, ultimately driving greater business value.
-
-</div>
-
 ::right::
 
 <div class="chart-container" ref="chartRef">
