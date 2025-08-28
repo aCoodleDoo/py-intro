@@ -13,6 +13,7 @@
     "@slidev/theme-bricks": "^0.25.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "chart.js": "^4.5.0",
     "slidev-addon-python-runner": "^0.1.3",
     "slidev-addon-rabbit": "^0.4.0",
     "slidev-theme-penguin": "^2.3.1",
