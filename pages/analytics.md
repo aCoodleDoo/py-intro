@@ -4,7 +4,17 @@ layout: two-cols
 
 # Analytics
 
-<iframe title="foursquarenc_dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYjE1OTJkMjItZDFkZi00YjhjLTkwN2MtODU1N2ZmNDE5OTEyIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9" frameborder="0" allowFullScreen="true"></iframe>
+<div class="iframe-container" style="width: 100%; max-width: 600px; height: 373.5px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <iframe 
+    title="foursquarenc_dashboard" 
+    width="100%" 
+    height="100%" 
+    src="https://app.powerbi.com/view?r=eyJrIjoiYjE1OTJkMjItZDFkZi00YjhjLTkwN2MtODU1N2ZmNDE5OTEyIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9" 
+    frameborder="0" 
+    allowFullScreen="true"
+    style="display: block;">
+  </iframe>
+</div>
 
 ::right::
 
