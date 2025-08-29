@@ -67,11 +67,11 @@ src: ./pages/pillar-one.md
 ---
 
 ---
-src: ./pages/intro.md
+src: ./pages/pain-points.md
 ---
 
 ---
-src: ./pages/pain-points.md
+src: ./pages/intro.md
 ---
 
 ---

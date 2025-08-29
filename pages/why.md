@@ -8,12 +8,12 @@ transition: slide-left
 - 🛠 **no disruption** to your business
 - 🧑‍💻 do more business and less click click click
 
-Service by Design is a model based consulting company. We design and implement systems that make insights visible and technology invisible. 
+Service by Design makes insights visible and technology invisible. Talk to us!
 
 <div class="widget-container">
   <a href="https://elevenlabs.io/app/talk-to?agent_id=6Fu2bECKFPtwprXqiX9m" target="_blank" class="widget-link">
     <div class="widget-placeholder">
-      🎙️ Click to Chat with our Sales Shadow
+      🎙️ Click to Chat with our Sales Agent
     </div>
   </a>
 </div>

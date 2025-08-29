@@ -17,14 +17,12 @@
 
 ```mermaid
 flowchart LR
-    A[Chat Interface] --> B[Voice Integration]
-    B --> C[Smart Glasses]
-    C --> D[AI Enhancement]
+    A[Onboard Agent] --> B[Integrate Agent]
+    B --> C[Monitor Agent]
 
     style A fill:#e3f2fd
     style B fill:#f3e5f5
     style C fill:#e8f5e8
-    style D fill:#e8f5e8
 ```
 </div>
 
@@ -32,28 +30,27 @@ flowchart LR
 
 <div class="space-y-6" v-click>
 
-## Phase 1: Core Interface
-- Deploy basic chat interface
-- Integrate voice recognition
-- Implement form auto-generation
+## Phase 1
+- Create knowledge base
+- Onboard triage agent 
 
 </div>
 
 <div class="space-y-6" v-click>
 
-## Phase 2: Field Integration
-- Smart glasses for field workers
-- Hands-free documentation
-- Automated report creation
+## Phase 2
+- Integrate chat interface
+- Deploy triage agent
+- Monitor triage agent
 
 </div>
 
 <div class="space-y-6" v-click>
 
-## Phase 3: AI Enhancement
-- Predictive maintenance alerts
-- Proactive issue identification
-- Automated workflow optimization
+## Phase 3
+- Integrate systems
+- Improve visibility
+- Onboard new agents?
 
 </div>
 

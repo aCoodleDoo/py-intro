@@ -1,3 +1,7 @@
+---
+transition: right
+---
+
 # Pillar 1: Visibility
 
 <style scoped>
@@ -35,8 +39,8 @@ flowchart LR
 <div class="space-y-6" v-click>
 
 ## Process
-- Catalog business processes and systems
-- Design process models and data models
+- Catalog processes & systems
+- Document user stories
 - Integrate business systems
 
 </div>
@@ -44,18 +48,17 @@ flowchart LR
 <div class="space-y-6" v-click>
 
 ## Outcome
-- Establish unified single source of truth.
-- Enable self-service reporting for all stakeholders
-- Capture end to end business lifecycle
+- Single source of truth
+- Self-service through chat
+- End to end visibility
 
 </div>
 
 <div class="space-y-6" v-click>
 
 ## Calm
-- No change to current processes
-- A complete end-to-end business view
-- Access all reports through one place.
+- No impact to day-to-day
+- 100% satisfaction guarantee
 
 </div>
 

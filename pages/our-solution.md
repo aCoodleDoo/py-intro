@@ -46,7 +46,7 @@ graph TB
 ## Natural Interaction
 - Voice, text, and image inputs
 - Zero learning curve interface
-- Context-aware conversations
+- Context-aware forms and chatbots
 
 </div>
 
@@ -62,9 +62,9 @@ graph TB
 <div class="space-y-6" v-click>
 
 ## Seamless Integration
-- Smart glasses compatibility
+- Legacy system friendly
 - Mobile-first design
-- Legacy system connections
+- Non-invasive integration
 
 </div>
 

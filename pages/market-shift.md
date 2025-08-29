@@ -32,29 +32,34 @@ flowchart LR
 <div class="space-y-6" v-click>
 
 ## Interface Evolution
-- Command line to GUI to conversation
-- Each shift democratizes technology
-- Reduces learning curve dramatically
+- Command line to GUI
+- GUI to Chatbot
+- No learning curve
 
 </div>
 
 <div class="space-y-6" v-click>
 
 ## User Expectations
-- 62% prefer conversational interfaces
-- Consumer experiences shape B2B demands
-- Form fatigue driving interface change
+- Expectations have changed
+- Reshaped B2B demands
+- Want chat driven experiences
 
 </div>
 
 <div class="space-y-6" v-click>
 
 ## Market Readiness
-- AI technology now enterprise-ready
-- 84% of enterprises using conversational AI
-- First-mover advantage window closing
+- High interest
+- Heavy saturation
+- No clear leader
 
 </div>
 
 </div>
 
+<!--
+People want to have more sophisticated experiences with technology. But they don't want to click more buttons to get there. 
+
+The only solution is via a conversational UI as the primary input source and a GUI as a response output source.
+-->

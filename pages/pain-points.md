@@ -68,24 +68,24 @@ layout: two-cols
 <div class="space-y-6" v-click>
 
 ## Documentation Burden
-- Field workers avoid paperwork
-- Manual photo management
-- Repetitive form filling
+- We avoid paperwork
+- We like to talk and take pictures
+- Good documentation is valuable
 
 </div>
 
 <div class="space-y-6" v-click>
 
 ## Communication Friction
-- Multiple stakeholder coordination
-- Information lost in translation
-- Delayed response cycles
+- Multiple stakeholders to coordinate
+- Miscommunication due to information overload
+- Delayed simple responses
 
 </div>
 
 <div class="space-y-6" v-click>
 
-## Administrative Overhead
+## Admin Overhead
 - Duplicate data entry
 - Complex software training
 - Manual report generation

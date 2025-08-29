@@ -6,13 +6,13 @@ transition: fade-out
 
 # Intro
 
-Context collection
+Problem definition
 
-A support ticket is a **container** that **collects context**
+A support ticket is a **container** that **gathers context**
 
-through a standard form template and collects 
+through a standard form interface and collects 
 
-information like:
+specific pieces of information such as:
 
 <v-clicks>
 

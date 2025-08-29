@@ -1,5 +1,15 @@
 # Less Technology, Better Experiences
 
+<div class="mermaid-container align-center justify-center">
+  
+```mermaid
+flowchart LR
+A[Have Conversations] --> B[Gather Context Clues] --> A[Have Conversations]
+B --> C[Build Models Together] --> B[Gather Context Clues]
+
+```
+</div>
+
 <style scoped>
 /* We are now applying the nicer visual styles to this container.
   Crucially, there is NO fixed height, so it will grow to fit the diagram.
@@ -13,42 +23,31 @@
 }
 </style>
 
-<div class="mermaid-container align-center">
-  
-```mermaid
-flowchart LR
-A[Engage User] --> B[Gather Context]
-B --> C[Build Models]
-
-```
-</div>
-
 <div class="grid grid-cols-3 gap-6 mt-8">
 
 <div class="space-y-6" v-click>
 
-## Engage User
-- Deploy basic chat interface
-- Integrate voice recognition
-- Implement form auto-generation via chat
+## Engage
+- Forms, Chat and GenAI
+- Forms are conversations
+- Forms collect context
 
 </div>
 
 <div class="space-y-6" v-click>
 
-## Gather Context
-- Guided data collection
-- Hands-free documentation
-- Automated form generation and report creation
+## Listen
+- Guide content collection
+- Document in real time
 
 </div>
 
 <div class="space-y-6" v-click>
 
-## Build Models
-- Predictive maintenance alerts
-- Proactive issue identification
-- Automated workflow optimization
+## Document
+- Visual process models
+- Conversational operating procedures
+- Automated workflows
 
 </div>
 
