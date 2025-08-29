@@ -46,7 +46,7 @@ commands can be used to:
 .app-container {
   position: relative;
   width: 100%;
-  height: 60%;
+  height: 100%;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
