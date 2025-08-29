@@ -24,7 +24,7 @@ layout: two-cols
 <style scoped>
 .map-container {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: 60%;
   border-radius: 8px;
   overflow: hidden;
