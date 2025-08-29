@@ -1,3 +1,4 @@
+
 ---
 layout: two-cols
 layoutClass: gap-16
@@ -46,7 +47,7 @@ information like:
 .app-container {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 60%;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
