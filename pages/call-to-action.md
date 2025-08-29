@@ -6,7 +6,7 @@ layout: two-cols
 
 <div class="app-container">
   <a 
-    href="https://genui-lime.vercel.app/"
+    href="https://genui-lime.vercel.app/login"
     target="_blank"
     rel="noopener noreferrer"
     class="interactive-app-link"

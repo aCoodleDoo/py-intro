@@ -6,20 +6,20 @@ transition: fade-out
 
 # Intro
 
-Computer programs consist of commands
+Context collection
 
-and each command instructing the computer to take some action.
+A support ticket is a **container** that **collects context**
 
-A computer executes these commands one by one.
+through a standard form template and collects 
 
-commands can be used to:
+information like:
 
 <v-clicks>
 
-- post messages or ask for info from the user.
-- perform calculations on numbers.
-- compare things in the computer's memory.
-- cause changes in how the program functions.
+- Contact information (user)
+- Date and Location of the issue (property)
+- Detailed description of the issue (work order)
+- End to End Visibility (company)
 
 </v-clicks>
 

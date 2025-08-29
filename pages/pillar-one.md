@@ -1,4 +1,4 @@
-# Pillar 1: Understand and Integrate
+# Pillar 1: Visibility
 
 <style scoped>
 /* We are now applying the nicer visual styles to this container.
