@@ -24,4 +24,7 @@ commands can be used to:
 </v-clicks>
 
 ::right::
-<Tweet id="1782553830305218930" scale="0.65" />
+
+<container>
+  <iframe src="https://v0-property-maintenance-app-one.vercel.app/tenant" style="width:100%; height:500px; border:none;"></iframe>
+</container>
