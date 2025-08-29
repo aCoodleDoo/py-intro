@@ -95,10 +95,6 @@ src: ./pages/implementation.md
 ---
 
 ---
-src: ./pages/analytics.md
----
-
----
 src: ./pages/call-to-action.md
 ---
 
