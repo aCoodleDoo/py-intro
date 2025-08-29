@@ -67,6 +67,14 @@ src: ./pages/pillar-one.md
 ---
 
 ---
+src: ./pages/pillar-two.md
+---
+
+---
+src: ./pages/pillar-three.md
+---
+
+---
 src: ./pages/pain-points.md
 ---
 

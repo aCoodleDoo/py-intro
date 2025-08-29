@@ -2,7 +2,7 @@
 transition: right
 ---
 
-# Pillar 1: Visibility
+# Pillar 1: Improve Visibility
 
 <style scoped>
 /* We are now applying the nicer visual styles to this container.

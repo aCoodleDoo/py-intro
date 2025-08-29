@@ -1,11 +1,7 @@
-
-# Pillar 2: Enhance Interaction
+# Pillar 2: Remove Technology
 
 <style scoped>
 .mermaid-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 1.5rem;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -26,9 +22,10 @@
 
 ```mermaid
 flowchart LR
-    A[User has an Issue] --> B{Chatbot Interface};
+    A[User has an Issue] --> B[Chatbot Interface];
     B --> C[AI Gathers Context];
-    C --> D[Data Retrieved/Submitted];
+    C --> D[AI Triages Issue];
+    D --> C[AI Gathers Context];
     D --> E[Issue Resolved];
 
     style A fill:#e3f2fd
@@ -42,37 +39,31 @@ flowchart LR
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 
-<div class="text-container">
 <div class="space-y-6" v-click>
-<h2>The Problem</h2>
-<ul>
-<li>Navigating multiple systems is hard</li>
-<li>Frustrating user interfaces abound</li>
-<li>Challenges for new employees</li>
-</ul>
-</div>
+
+## The Problem
+- Multiple systems
+- Information overload
+- Hard to onboard
+
 </div>
 
-<div class="text-container">
 <div class="space-y-6" v-click>
-<h2>The Solution</h2>
-<ul>
-<li>Replace UIs with a chatbot</li>
-<li>Users express requests naturally</li>
-<li>AI intelligently gathers information</li>
-</ul>
-</div>
+
+## The Solution
+- Replace clicking with talking
+- Users speaks naturally
+- AI Forms
+
 </div>
 
-<div class="text-container">
 <div class="space-y-6" v-click>
-<h2>User Experience</h2>
-<ul>
-<li>Acts as an intelligent form</li>
-<li>Interface is always consistent</li>
-<li>Offers a better experience</li>
-</ul>
-</div>
+
+## User Experience
+- Intelligent form
+- Interface is always consistent
+- Offers a simpler experience
+
 </div>
 
 </div>
