@@ -1,15 +1,25 @@
-# Core Philosophy: Less Technology, Better Experiences
+# Less Technology, Better Experiences
 
-<div class="items-center justify-center bg-gray-100 rounded-lg">
+<style scoped>
+/* We are now applying the nicer visual styles to this container.
+  Crucially, there is NO fixed height, so it will grow to fit the diagram.
+*/
+.mermaid-container {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
+
+<div class="mermaid-container align-center">
   
 ```mermaid
 flowchart LR
-A[Identify Need] --> B[Implement Tech]
-B --> C[Provide Value]
+A[Engage User] --> B[Gather Context]
+B --> C[Build Models]
 
-style A fill:#ffcdd2
-style B fill:#ef9a9a
-style C fill:#ef5350
 ```
 </div>
 
@@ -17,25 +27,25 @@ style C fill:#ef5350
 
 <div class="space-y-6" v-click>
 
-## Phase 1: Core Interface
+## Engage User
 - Deploy basic chat interface
 - Integrate voice recognition
-- Implement form auto-generation
+- Implement form auto-generation via chat
 
 </div>
 
 <div class="space-y-6" v-click>
 
-## Phase 2: Field Integration
-- Smart glasses for field workers
+## Gather Context
+- Guided data collection
 - Hands-free documentation
-- Automated report creation
+- Automated form generation and report creation
 
 </div>
 
 <div class="space-y-6" v-click>
 
-## Phase 3: AI Enhancement
+## Build Models
 - Predictive maintenance alerts
 - Proactive issue identification
 - Automated workflow optimization

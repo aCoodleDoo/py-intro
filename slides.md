@@ -10,8 +10,8 @@ rabbit:
 theme: bricks
 
 # some information about your slides (markdown enabled)
-title: Python Series
-author: Kareim Tarek
+title: Property Management
+author: Siddarth Datla
 class: text-center
 # https://sli.dev/features/drawing
 drawings:
@@ -30,9 +30,9 @@ lineNumbers: True
 selectable: true
 ---
 
-# Python From Zero To Hero
+# Property Management
 
-Episode 1
+A Changing Paradigm
 
 <div class="abs-br m-6 text-xl">
   <a href="https://www.youtube.com/@KareemKreates" target="_blank" class="slidev-icon-btn">

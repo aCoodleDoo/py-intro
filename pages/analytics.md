@@ -3,6 +3,7 @@ layout: two-cols
 ---
 
 # Analytics
+
 <div class="center-container">
   <iframe 
     src="https://app.powerbi.com/view?r=eyJrIjoiYjE1OTJkMjItZDFkZi00YjhjLTkwN2MtODU1N2ZmNDE5OTEyIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9" 
@@ -22,7 +23,7 @@ layout: two-cols
 
 .center-container iframe {
   width: 90%; /* Adjust width as needed */
-  height: 80%; /* Adjust height as needed */
+  height: 60%; /* Adjust height as needed */
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);

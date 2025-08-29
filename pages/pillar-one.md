@@ -1,13 +1,26 @@
 # Pillar 1: Understand and Integrate
 
-<div class="col-span-3 justify-center bg-gray-100 rounded-lg">
+<style scoped>
+/* We are now applying the nicer visual styles to this container.
+  Crucially, there is NO fixed height, so it will grow to fit the diagram.
+*/
+.mermaid-container {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
+
+<div class="mermaid-container justify-center">
 
 ```mermaid
 flowchart LR
     A[Engage with Business] --> B[Define Processes]
     B --> C[Design Data Model]
     C --> D[Integrate Systems]
-    D --> E[Unified Dashboard]
+    D --> E[Deploy Dashboard]
 
     style A fill:#e3f2fd
     style B fill:#f3e5f5
@@ -39,10 +52,10 @@ flowchart LR
 
 <div class="space-y-6" v-click>
 
-## Disruption? 
+## Calm
 - No change to current processes
-- A complete end-to-end business view for unified reporting.
-- Allows users to access all reports through one place.
+- A complete end-to-end business view
+- Access all reports through one place.
 
 </div>
 

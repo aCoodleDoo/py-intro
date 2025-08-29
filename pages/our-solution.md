@@ -4,7 +4,20 @@ layout: two-cols
 
 # Our Solution
 
-<div class="flex justify-left items-center w-6/6 h-5/6 p-6 bg-gray-100 rounded-lg">
+<style scoped>
+/* We are now applying the nicer visual styles to this container.
+  Crucially, there is NO fixed height, so it will grow to fit the diagram.
+*/
+.mermaid-container {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
+
+<div class="mermaid-container justify-center">
 
 ```mermaid {scale: 0.7}
 graph TB

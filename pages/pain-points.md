@@ -6,7 +6,7 @@ layout: two-cols
 
 <div class="map-container">
   <iframe 
-    src="https://www.openstreetmap.org/export/embed.html?bbox=-87.9401,41.6445,-87.5245,42.0230&layer=mapnik&marker=41.8781,-87.6298"
+    src="https://app.powerbi.com/view?r=eyJrIjoiYjE1OTJkMjItZDFkZi00YjhjLTkwN2MtODU1N2ZmNDE5OTEyIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9"
     class="interactive-map"
     frameborder="0"
     scrolling="no"
@@ -17,7 +17,7 @@ layout: two-cols
   >
   </iframe>
   <div class="map-overlay">
-    <div class="location-marker">📍 Chicago, IL</div>
+    <div class="location-marker">📍 Raleigh, NC</div>
   </div>
 </div>
 
@@ -25,7 +25,7 @@ layout: two-cols
 .map-container {
   position: relative;
   width: 100%;
-  height: 75%;
+  height: 60%;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -33,7 +33,7 @@ layout: two-cols
 
 .interactive-map {
   width: 100%;
-  height: 75%;
+  height: 100%;
   border: none;
   transition: filter 0.3s ease;
 }
