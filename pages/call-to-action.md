@@ -6,7 +6,7 @@ layout: two-cols
 
 <div class="app-container">
   <iframe 
-    src="https://v0-property-maintenance-app-one.vercel.app/tenant"
+    src="https://genui-lime.vercel.app/"
     class="interactive-app"
     frameborder="0"
     loading="lazy"
