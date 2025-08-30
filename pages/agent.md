@@ -2,11 +2,38 @@
 layout: two-cols
 ---
 
-# Form = AI Agent
+# Meet Your Shadow
+
+<div class="space-y-6" v-click>
+
+## The Old Way
+- Filling out long, confusing forms
+- Forgetting important information
+- Feeling overwhelmed and impersonal
+
+</div>
+
+<div class="space-y-6" v-click>
+
+## The New Way
+- A simple, guided conversation
+- The AI asks for information as needed
+- A more human-centered experience
+
+</div>
+
+<div class="space-y-6" v-click>
+
+## Holds Your Hand
+- Acts as your helpful guide
+- Answers common questions
+- Shows a clear path to completion
+
+</div>
 
 ::right::
 
-<div class="map-container">
+<div class="agent-container">
   <iframe 
     id="JotFormIFrame-019761564a40774fb9e0437c063b514ea274"
     title="Patient Care Coordinator AI Agent" 
@@ -45,10 +72,10 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.map-container {
+.agent-container {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 90%;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -62,29 +89,5 @@ onMounted(() => {
   /* Isolate iframe from parent styling */
   color-scheme: light;
   background: white;
-}
-
-.map-container:hover .interactive-map {
-  filter: brightness(1.1);
-}
-
-.map-overlay {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 8px 12px;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #374151;
-  backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.location-marker {
-  display: flex;
-  align-items: center;
-  gap: 4px;
 }
 </style>

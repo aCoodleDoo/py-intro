@@ -6,14 +6,14 @@ layout: two-cols
 
 <div class="map-container">
   <iframe 
-    src="https://app.powerbi.com/view?r=eyJrIjoiYjE1OTJkMjItZDFkZi00YjhjLTkwN2MtODU1N2ZmNDE5OTEyIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9"
+    src="https://app.powerbi.com/view?r=eyJrIjoiZDBkZGUxYmEtNzdkYi00ZjQzLWFiZjctNjFhZGEzYmQ4NWFhIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9"
     class="interactive-map"
     frameborder="0"
     scrolling="no"
     marginheight="0"
     marginwidth="0"
     loading="lazy"
-    title="Chicago Property Management Area"
+    title="FourSquare Property Management"
   >
   </iframe>
   <div class="map-overlay">

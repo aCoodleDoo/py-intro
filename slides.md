@@ -91,15 +91,15 @@ src: ./pages/our-solution.md
 ---
 
 ---
+src: ./pages/agent.md
+---
+
+---
 src: ./pages/implementation.md
 ---
 
 ---
 src: ./pages/call-to-action.md
----
-
----
-src: ./pages/agent.md
 ---
 
 ---
