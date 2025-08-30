@@ -4,35 +4,6 @@ layout: two-cols
 
 # Meet Your Shadow
 
-<div class="space-y-6" v-click>
-
-## The Old Way
-- Filling out long, confusing forms
-- Forgetting important information
-- Feeling overwhelmed and impersonal
-
-</div>
-
-<div class="space-y-6" v-click>
-
-## The New Way
-- A simple, guided conversation
-- The AI asks for information as needed
-- A more human-centered experience
-
-</div>
-
-<div class="space-y-6" v-click>
-
-## Holds Your Hand
-- Acts as your helpful guide
-- Answers common questions
-- Shows a clear path to completion
-
-</div>
-
-::right::
-
 <div class="agent-container">
   <iframe 
     id="JotFormIFrame-019761564a40774fb9e0437c063b514ea274"
@@ -91,3 +62,35 @@ onMounted(() => {
   background: white;
 }
 </style>
+
+
+
+::right::
+
+
+<div class="space-y-6" v-click>
+
+## The Old Way
+- Filling out long, confusing forms
+- Forgetting important information
+- Feeling overwhelmed and impersonal
+
+</div>
+
+<div class="space-y-6" v-click>
+
+## The New Way
+- A simple, guided conversation
+- The AI asks for information as needed
+- A more human-centered experience
+
+</div>
+
+<div class="space-y-6" v-click>
+
+## Holds Your Hand
+- Acts as your helpful guide
+- Answers common questions
+- Shows a clear path to completion
+
+</div>
