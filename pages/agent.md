@@ -1,3 +1,4 @@
+
 ---
 layout: center
 ---
@@ -19,10 +20,21 @@ layout: center
   </iframe>
 </div>
 
-<script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
-<script>
-  window.jotformEmbedHandler("iframe[id='JotFormIFrame-019761564a40774fb9e0437c063b514ea274']",
-    "https://www.jotform.com")
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  // Load JotForm embed handler script
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'
+  script.onload = () => {
+    // Initialize JotForm embed handler after script loads
+    if (window.jotformEmbedHandler) {
+      window.jotformEmbedHandler("iframe[id='JotFormIFrame-019761564a40774fb9e0437c063b514ea274']", "https://www.jotform.com")
+    }
+  }
+  document.head.appendChild(script)
+})
 </script>
 
 <style scoped>
