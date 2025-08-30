@@ -4,19 +4,21 @@ layout: center
 
 # Patient Care Coordinator AI Agent
 
-<div class="agent-container">
+<div class="map-container">
   <iframe 
-    id="JotFormIFrame-019761564a40774fb9e0437c063b514ea274"
-    title="Patient Care Coordinator AI Agent" 
-    onload="window.parent.scrollTo(0,0)"
-    allowtransparency="true" 
-    allow="geolocation; microphone; camera; fullscreen"
-    src="https://agent.jotform.com/019761564a40774fb9e0437c063b514ea274?embedMode=iframe&background=1&shadow=1"
-    frameborder="0" 
-    style="max-width:100%; height:688px; border:none; width:100%;" 
+    src="https://app.powerbi.com/view?r=eyJrIjoiYjE1OTJkMjItZDFkZi00YjhjLTkwN2MtODU1N2ZmNDE5OTEyIiwidCI6ImJmNDlkMzdjLTE0YWQtNDU0MS1iNDA1LTQxOWZlM2Q1NjYzYSJ9"
+    class="interactive-map"
+    frameborder="0"
     scrolling="no"
-    class="interactive-agent">
+    marginheight="0"
+    marginwidth="0"
+    loading="lazy"
+    title="Chicago Property Management Area"
+  >
   </iframe>
+  <div class="map-overlay">
+    <div class="location-marker">📍 Raleigh, NC</div>
+  </div>
 </div>
 
 <script setup>
@@ -37,24 +39,43 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.agent-container {
+.map-container {
   position: relative;
   width: 90%;
-  height: 50%;
+  height: 60%;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
 }
 
-.interactive-agent {
+.interactive-map {
   width: 100%;
-  height: 50%;
+  height: 100%;
   border: none;
   transition: filter 0.3s ease;
 }
 
-.agent-container:hover .interactive-agent {
-  filter: brightness(1.05);
+.map-container:hover .interactive-map {
+  filter: brightness(1.1);
+}
+
+.map-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.location-marker {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 </style>
