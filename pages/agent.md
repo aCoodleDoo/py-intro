@@ -59,6 +59,9 @@ onMounted(() => {
   height: 100%;
   border: none;
   transition: filter 0.3s ease;
+  /* Isolate iframe from parent styling */
+  color-scheme: light;
+  background: white;
 }
 
 .map-container:hover .interactive-map {
