@@ -94,8 +94,6 @@ layout: two-cols
 }
 </style>
 
-
-
 ::right::
 
 <div class="space-y-6" v-click>

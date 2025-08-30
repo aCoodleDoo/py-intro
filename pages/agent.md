@@ -1,4 +1,3 @@
-
 ---
 layout: center
 ---
@@ -41,7 +40,7 @@ onMounted(() => {
 .agent-container {
   position: relative;
   width: 90%;
-  height: 80vh;
+  height: 50%;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -50,7 +49,7 @@ onMounted(() => {
 
 .interactive-agent {
   width: 100%;
-  height: 100%;
+  height: 50%;
   border: none;
   transition: filter 0.3s ease;
 }
