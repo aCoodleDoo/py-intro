@@ -1,9 +1,10 @@
-
 ---
-layout: center
+layout: two-cols
 ---
 
-# Patient Care Coordinator AI Agent
+# Form = AI Agent
+
+::right::
 
 <div class="map-container">
   <iframe 
@@ -46,8 +47,8 @@ onMounted(() => {
 <style scoped>
 .map-container {
   position: relative;
-  width: 90%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
